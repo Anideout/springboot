@@ -29,7 +29,7 @@ public class Persona {
 
     // alt + insert
     public void setRut(String rut) {
-        this.rut = "";
+        this.rut = rut;
 
     }
 
@@ -37,7 +37,7 @@ public class Persona {
         return this.rut;
     }
     public void setNombre(String nombre){
-        this.nombre= nombre;
+        this.nombre = nombre;
     }
 
     public String getNombre() {
